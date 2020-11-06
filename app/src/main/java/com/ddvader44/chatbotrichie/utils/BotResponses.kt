@@ -32,7 +32,7 @@ object BotResponses {
                     "$answer"
 
                 } catch (e: Exception) {
-                    "Sorry, I can't solve that."
+                    "Sorry, I can't solve that, I am weak at Advanced Math!"
                 }
             }
 
@@ -40,7 +40,7 @@ object BotResponses {
             message.contains("hello") -> {
                 when (random) {
                     0 -> "Hello there!"
-                    1 -> "Sup"
+                    1 -> "Hey"
                     2 -> "Namaste!"
                     else -> "error" }
             }
@@ -51,7 +51,7 @@ object BotResponses {
                 when (random) {
                     0 -> "Bye!"
                     1 -> "Goodbye."
-                    2 -> "Sayonara!"
+                    2 -> "Tata Bye Bye Khatam!"
                     else -> "error" }
             }
 
@@ -59,7 +59,7 @@ object BotResponses {
             message.contains("how are you") -> {
                 when (random) {
                     0 -> "I'm doing fine, thanks!"
-                    1 -> "I'm hungry..."
+                    1 -> "I'm feeling hungry rn..."
                     2 -> "Pretty good! How about you?"
                     else -> "error"
                 }
